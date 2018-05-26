@@ -12,5 +12,9 @@ public class MusicResource {
         this.musicService = musicService;
     }
 
+    @GetMapping
+    public ResponseEntity<Iterable<Music>> findAll() {
+        return new ResponseEntity<>(this.musicService.findAll(), HttpStatus.OK);
+    }
 
 }
