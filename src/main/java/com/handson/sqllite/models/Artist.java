@@ -8,28 +8,28 @@ import javax.persistence.Id;
  * @since 26/05/18
  */
 @Entity
-public class Artistas {
+public class Artist {
 
     @Id
     private String id;
-    private String nome;
+    private String name;
 
 
     public String getId() {
         return id;
     }
 
-    public Artistas setId(String id) {
+    public Artist setId(String id) {
         this.id = id;
         return this;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public Artistas setNome(String nome) {
-        this.nome = nome;
+    public Artist setName(String name) {
+        this.name = name;
         return this;
     }
 }

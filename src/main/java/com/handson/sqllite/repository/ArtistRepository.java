@@ -1,6 +1,6 @@
 package com.handson.sqllite.repository;
 
-import com.handson.sqllite.models.Artistas;
+import com.handson.sqllite.models.Artist;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
  * @since 26/05/18
  */
 @Repository
-public interface ArtistaRepository extends CrudRepository<Artistas, String> {
+public interface ArtistRepository extends CrudRepository<Artist, String> {
 }
