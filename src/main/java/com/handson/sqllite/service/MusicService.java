@@ -1,6 +1,6 @@
 package com.handson.sqllite.service;
 
-import package com.handson.sqllite.models.Music;
+import com.handson.sqllite.models.Music;
 import com.handson.sqllite.repository.MusicRepository;
 import org.springframework.stereotype.Service;
 

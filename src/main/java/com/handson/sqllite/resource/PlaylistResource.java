@@ -1,6 +1,5 @@
 package com.handson.sqllite.resource;
 
-import com.handson.sqllite.models.Artist;
 import com.handson.sqllite.models.Playlists;
 import com.handson.sqllite.service.PlaylistService;
 import org.springframework.http.HttpStatus;
